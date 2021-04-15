@@ -1,4 +1,4 @@
-# mzzv
+# vue3 template
 
 ## Project setup
 ```
