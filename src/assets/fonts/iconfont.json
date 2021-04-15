@@ -1,0 +1,44 @@
+{
+  "id": "2467386",
+  "name": "mzz",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "741052",
+      "name": "密码 锁",
+      "font_class": "mimasuo",
+      "unicode": "e84a",
+      "unicode_decimal": 59466
+    },
+    {
+      "icon_id": "1374722",
+      "name": "短信",
+      "font_class": "duanxin",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "4905551",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "7578846",
+      "name": "用户",
+      "font_class": "denglu1",
+      "unicode": "e7d8",
+      "unicode_decimal": 59352
+    },
+    {
+      "icon_id": "79193",
+      "name": "加入购物车",
+      "font_class": "icon",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}

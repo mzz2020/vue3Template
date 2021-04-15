@@ -1,0 +1,93 @@
+// 颜色
+@gray: #323233;
+@gray-desc: #8e8e8e;
+@gray-border: #ebedf0;
+@gray-border-drak: #494949;
+@gray-bg: #fafafa;
+@gray-icon: #888;
+
+@white: white;
+@black: black;
+@blue: #1989fa;
+@green: #07c160;
+@orange: #ffddbf;
+@orange-tag: #ffece0;
+@blue-link: #05a8e4;
+@red: #ee0a24;
+@red-active: #ee0a24;
+
+@fontSize10: 10px;
+@fontSize12: 12px;
+@fontSize14: 14px;
+@fontSize16: 16px;
+@fontSize18: 18px;
+@fontSize20: 20px;
+@fontSize22: 22px;
+@fontSize26: 26px;
+@fontSize28: 28px;
+@fontSize32: 32px;
+@fontSize40: 40px;
+@fontSize48: 48px;
+@fontSize72: 72px;
+
+// 组件扩展
+@navHeight: 46px;
+// van-tabs
+@tabsFontSize: @fontSize16;
+@tabsFontWeight: 700;
+@tabsColor: @black;
+
+// 方法
+#initWHPM() {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#btn() {
+  padding: 10px 20px;
+}
+
+#border {
+  position: absolute;
+  box-sizing: border-box;
+  content: ' ';
+  pointer-events: none;
+  top: -50%;
+  right: -50%;
+  bottom: -50%;
+  left: -50%;
+  border: 0 solid @gray-border;
+  transform: scale(.5);
+}
+
+// 扩展
+.van-nav-bar .van-icon {
+  color: @gray-icon !important;
+}
+
+.van-button--normal {
+  font-size: @fontSize16 !important;
+}
+
+.van-tab {
+  font-size: @tabsFontSize !important;
+  font-weight: @tabsFontWeight !important;
+  // color: @tabsColor !important;
+  padding: 0 9px !important;
+}
+
+.van-tab--active {
+  font-weight: @tabsFontWeight !important;
+  color: @red-active !important;
+}
+
+.van-tabs__line {
+  color: @red-active !important;
+}
+
+.van-cell {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
